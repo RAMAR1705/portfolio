@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ramar S - Information Technology student & Developer portfolio. Exploring projects in Java, Python, Web Development, and ServiceNow.">
+    <meta name="keywords" content="Ramar S, Ramar, Developer Portfolio, IT Student, Web Developer, Java, Python, Flask, ServiceNow, VSB College, Coimbatore">
+    <meta name="author" content="Ramar S">
+    <title>Ramar S | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Ambient Background Blobs -->
+    <div class="blob-wrapper">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header id="main-header" class="glass-nav">
+        <div class="nav-container">
+            <a href="#home" class="logo">RAMAR<span>.S</span></a>
+            <nav class="nav-links">
+                <a href="#home" class="nav-item active">Home</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#experience" class="nav-item">Experience</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle light/dark theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button id="menu-toggle" aria-label="Open navigation menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu" class="glass-menu">
+        <button id="menu-close" aria-label="Close navigation menu">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="mobile-links">
+            <a href="#home" class="mobile-item">Home</a>
+            <a href="#about" class="mobile-item">About</a>
+            <a href="#experience" class="mobile-item">Experience</a>
+            <a href="#projects" class="mobile-item">Projects</a>
+            <a href="#contact" class="mobile-item">Contact</a>
+        </div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-status">
+                        <span class="pulse-dot"></span> Available for Internships & Projects
+                    </div>
+                    <h1 class="hero-title">
+                        Building Digital Solutions <br>
+                        with <span class="gradient-text">Code & Strategy</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Hi, I'm <strong>Ramar S</strong>. A B.Tech Information Technology student at V.S.B College of Engineering Technical Campus. Passionate about software development, python programming, web engineering, and IT service automation.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">Let's Connect <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#projects" class="btn btn-secondary">View My Work</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/RAMAR1705" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ramar1705" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:ramarlakshmanan1705@gmail.com" aria-label="Send Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="tel:+916383432093" aria-label="Call Mobile">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-glow"></div>
+                        <img src="assets/avatar.jpg" alt="Ramar S Profile Picture" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About & Bento Grid Section -->
+        <section id="about" class="about-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-heading">Who Am I</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+
+                <div class="bento-grid">
+                    <!-- Bento Card 1: Bio -->
+                    <div class="bento-card bento-bio glow-card">
+                        <div class="card-glow-element"></div>
+                        <div class="bento-icon"><i class="fa-solid fa-user-tie"></i></div>
+                        <h3>Professional Objective</h3>
+                        <p>Final-year B.Tech student in Information Technology with strong foundations in Java, Python, and C/C++. Seeking a challenging internship or entry-level opportunity to contribute to impactful projects and enhance skills in real-world environments.</p>
+                    </div>
+
+                    <!-- Bento Card 2: Tech Stack / Skills -->
+                    <div class="bento-card bento-skills glow-card">
+                        <div class="card-glow-element"></div>
+                        <div class="bento-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3>Technical Skills</h3>
+                        <div class="skills-container">
+                            <div class="skill-category">
+                                <h4>Languages & Databases</h4>
+                                <div class="skill-badges">
+                                    <span class="badge"><i class="fa-brands fa-java text-orange"></i> Java</span>
+                                    <span class="badge"><i class="fa-brands fa-python text-blue"></i> Python</span>
+                                    <span class="badge">C / C++</span>
+                                    <span class="badge"><i class="fa-solid fa-database text-purple"></i> SQL</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Web & Frameworks</h4>
+                                <div class="skill-badges">
+                                    <span class="badge"><i class="fa-solid fa-pepper-hot text-red"></i> Flask</span>
+                                    <span class="badge"><i class="fa-brands fa-html5 text-orange"></i> HTML5</span>
+                                    <span class="badge"><i class="fa-brands fa-css3-alt text-blue"></i> CSS3</span>
+                                    <span class="badge"><i class="fa-brands fa-js text-yellow"></i> JavaScript</span>
+                                    <span class="badge"><i class="fa-brands fa-bootstrap text-purple"></i> Bootstrap</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>IT Systems & Platforms</h4>
+                                <div class="skill-badges">
+                                    <span class="badge"><i class="fa-solid fa-gears text-green"></i> ServiceNow ITSM</span>
+                                    <span class="badge"><i class="fa-brands fa-git-alt text-orange"></i> Git Version Control</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bento Card 3: Education -->
+                    <div class="bento-card bento-education glow-card">
+                        <div class="card-glow-element"></div>
+                        <div class="bento-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <h3>Education</h3>
+                        <div class="education-timeline">
+                            <div class="edu-item">
+                                <div class="edu-header">
+                                    <h4>V.S.B College of Engineering Technical Campus</h4>
+                                    <span class="edu-date">2023 - 2027</span>
+                                </div>
+                                <p class="edu-degree">B.Tech – Information Technology</p>
+                                <div class="edu-footer">
+                                    <span class="location"><i class="fa-solid fa-location-dot"></i> Coimbatore, Tamil Nadu</span>
+                                    <span class="score-badge">CGPA: 7.93</span>
+                                </div>
+                            </div>
+                            <div class="edu-divider"></div>
+                            <div class="edu-item">
+                                <div class="edu-header">
+                                    <h4>Veveaham Higher Secondary School</h4>
+                                    <span class="edu-date">2022 - 2023</span>
+                                </div>
+                                <p class="edu-degree">Higher Secondary Certificate (HSC)</p>
+                                <div class="edu-footer">
+                                    <span class="location"><i class="fa-solid fa-location-dot"></i> Tiruppur, Tamil Nadu</span>
+                                    <span class="score-badge">HSC: 82%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bento Card 4: Certifications -->
+                    <div class="bento-card bento-certs glow-card">
+                        <div class="card-glow-element"></div>
+                        <div class="bento-icon"><i class="fa-solid fa-award"></i></div>
+                        <h3>Certifications</h3>
+                        <ul class="certs-list">
+                            <li>
+                                <div class="cert-marker"></div>
+                                <div class="cert-info">
+                                    <strong>OOPs with Java</strong>
+                                    <span>Coursera Certification</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cert-marker"></div>
+                                <div class="cert-info">
+                                    <strong>Cloud Computing</strong>
+                                    <span>NPTEL Certification</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cert-marker"></div>
+                                <div class="cert-info">
+                                    <strong>C, C++ Programming</strong>
+                                    <span>CSC Education Centre</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Bento Card 5: Local Info & Live Clock -->
+                    <div class="bento-card bento-info glow-card">
+                        <div class="card-glow-element"></div>
+                        <div class="info-content">
+                            <span class="info-label">Location</span>
+                            <div class="info-val">Tamil Nadu, India</div>
+                            
+                            <span class="info-label">Current Time</span>
+                            <div id="local-clock" class="info-val clock-val">00:00:00 AM</div>
+                            
+                            <span class="info-label">Languages</span>
+                            <div class="info-val lang-val">English, Tamil</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience / Internships Section -->
+        <section id="experience" class="experience-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-heading">My Journey</span>
+                    <h2 class="section-title">Internships & Trainings</h2>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+                    
+                    <!-- Internship 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card glow-card">
+                            <div class="card-glow-element"></div>
+                            <span class="timeline-date">KICE Infosystems</span>
+                            <h3 class="timeline-role">Web Development in Flask</h3>
+                            <p class="timeline-desc">
+                                Gained deep knowledge of server-side web application deployment, frontend layouts, and dynamic API configurations:
+                            </p>
+                            <ul class="timeline-bullets">
+                                <li>Built and deployed dynamic web applications using Flask, integrating REST APIs for seamless data exchange.</li>
+                                <li>Designed responsive, modern user interfaces with HTML, CSS, and Bootstrap, improving cross-device user experience.</li>
+                                <li>Implemented data fetching, processing, and display patterns in Python backend scripts.</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span class="tag">Flask</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">Bootstrap</span>
+                                <span class="tag">REST API</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Internship 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card glow-card">
+                            <div class="card-glow-element"></div>
+                            <span class="timeline-date">KICE Infosystems</span>
+                            <h3 class="timeline-role">Python Programming</h3>
+                            <p class="timeline-desc">
+                                Focused on core computer science foundations, system automation, and programming design:
+                            </p>
+                            <ul class="timeline-bullets">
+                                <li>Wrote Python scripts and programs to automate repetitive file management and data tasks.</li>
+                                <li>Practiced robust debugging, code styling, and unit-testing structures to maintain error-free code execution.</li>
+                                <li>Applied object-oriented programming (OOP) principles, clean functions, and loop efficiencies in final projects.</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">OOP</span>
+                                <span class="tag">Debugging</span>
+                                <span class="tag">Scripting</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Internship 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card glow-card">
+                            <div class="card-glow-element"></div>
+                            <span class="timeline-date">Virtual Internship</span>
+                            <h3 class="timeline-role">ServiceNow Developer Intern</h3>
+                            <p class="timeline-desc">
+                                Hands-on experience in enterprise IT Service Management (ITSM) automation and custom modular designs:
+                            </p>
+                            <ul class="timeline-bullets">
+                                <li>Gained practical knowledge in ITSM workflows by configuring incident, problem, and change management modules.</li>
+                                <li>Created automation scripts, assignment rules, and notification triggers to optimize ticket resolution speeds.</li>
+                                <li>Configured operational dashboards and reports to track Key Performance Indicators (KPIs) for corporate IT operations.</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span class="tag">ServiceNow</span>
+                                <span class="tag">ITSM</span>
+                                <span class="tag">Automation</span>
+                                <span class="tag">Dashboards</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-heading">Featured Works</span>
+                    <h2 class="section-title">My Projects</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Money Manager -->
+                    <div class="project-card glow-card">
+                        <div class="card-glow-element"></div>
+                        <div class="project-img-wrapper">
+                            <img src="assets/money_manager.png" alt="Money Manager Dashboard Preview" class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://github.com/RAMAR1705" target="_blank" rel="noopener" class="project-link-btn" aria-label="View Code on GitHub">
+                                    <i class="fa-brands fa-github"></i> View Repository
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Web Application</span>
+                            <h3 class="project-title">Money Manager</h3>
+                            <p class="project-text">
+                                A comprehensive, responsive personal finance management application designed to track expenses, categorize spendings, and generate dynamic visual summaries. Uses structured SQL/JSON data stores to track daily financial inputs.
+                            </p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>JavaScript</span>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 (Creative Showcase): Aether Glow Portfolio -->
+                    <div class="project-card glow-card">
+                        <div class="card-glow-element"></div>
+                        <div class="project-img-wrapper">
+                            <img src="assets/portfolio_mockup.png" alt="Glassmorphic Portfolio Preview" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#home" class="project-link-btn">
+                                    <i class="fa-solid fa-link"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Frontend Engineering</span>
+                            <h3 class="project-title">Glassmorphic Portfolio</h3>
+                            <p class="project-text">
+                                An interactive, ultra-modern developer portfolio website utilizing custom CSS mouse-tracking shadows, bento grids, dark mode state persistence, and responsive CSS variables. Built with SEO and clean design guidelines.
+                            </p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Vanilla JS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Campus Link Placement Portal -->
+                    <div class="project-card glow-card">
+                        <div class="card-glow-element"></div>
+                        <div class="project-img-wrapper">
+                            <div class="project-placeholder-img gradient-bg-service">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span>Placement Portal</span>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="https://github.com/RAMAR1705" target="_blank" rel="noopener" class="project-link-btn" aria-label="View Code on GitHub">
+                                    <i class="fa-brands fa-github"></i> Repository
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Full-Stack Web App</span>
+                            <h3 class="project-title">Campus Link Placement Portal</h3>
+                            <p class="project-text">
+                                A comprehensive campus placement portal designed to bridge the gap between students and recruiters. Features student profile management, job posting boards, and interview scheduling workflows to streamline the campus hiring process.
+                            </p>
+                            <div class="project-tags">
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>Backend</span>
+                                <span>Database</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-heading">Get In Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Information -->
+                    <div class="contact-info-panel">
+                        <h3>Let's start a conversation</h3>
+                        <p>Feel free to reach out for internship opportunities, code collaboration, or just to say hello! I'm always open to discussing new ideas and technical developments.</p>
+                        
+                        <div class="info-details-list">
+                            <a href="mailto:ramarlakshmanan1705@gmail.com" class="info-detail-item">
+                                <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="detail-text">
+                                    <span>Email Me</span>
+                                    <strong>ramarlakshmanan1705@gmail.com</strong>
+                                </div>
+                            </a>
+                            <a href="tel:+916383432093" class="info-detail-item">
+                                <div class="detail-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div class="detail-text">
+                                    <span>Call Me</span>
+                                    <strong>+91 6383432093</strong>
+                                </div>
+                            </a>
+                            <div class="info-detail-item">
+                                <div class="detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="detail-text">
+                                    <span>Location</span>
+                                    <strong>Tamil Nadu, India</strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-socials-group">
+                            <a href="https://github.com/RAMAR1705" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/ramar1705" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-panel glow-card">
+                        <div class="card-glow-element"></div>
+                        <form id="portfolio-contact-form" autocomplete="off">
+                            <div class="input-row">
+                                <div class="input-group">
+                                    <input type="text" id="contact-name" name="name" required placeholder=" ">
+                                    <label for="contact-name">Your Name</label>
+                                </div>
+                                <div class="input-group">
+                                    <input type="email" id="contact-email" name="email" required placeholder=" ">
+                                    <label for="contact-email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" id="contact-subject" name="subject" required placeholder=" ">
+                                <label for="contact-subject">Subject</label>
+                            </div>
+                            <div class="input-group">
+                                <textarea id="contact-message" name="message" required placeholder=" " rows="5"></textarea>
+                                <label for="contact-message">Message</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary form-submit-btn">
+                                Send Message <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        <div id="form-success-msg" class="success-message-overlay">
+                            <div class="success-content">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <h3>Thank you, Ramar will respond soon!</h3>
+                                <p>Your message has been successfully simulated and sent.</p>
+                                <button id="success-close-btn" class="btn btn-secondary btn-sm">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p class="copyright">&copy; 2026 Ramar S. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#home" class="scroll-top-btn" aria-label="Scroll back to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Interactive Logic Script -->
+    <script src="script.js"></script>
+</body>
+</html>
